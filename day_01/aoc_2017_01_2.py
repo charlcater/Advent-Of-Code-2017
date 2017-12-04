@@ -13,10 +13,6 @@ for n in range(len(string)):
     except ValueError:
         print('invalid value found')
 
-#digits.append(int(string[0]))  # prettify!
-
-# print(digits)
-
 sum = 0
 
 length = len(digits)
