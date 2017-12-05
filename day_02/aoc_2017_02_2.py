@@ -1,5 +1,5 @@
 # Advent of Code 2017
-# Day 02 excercise 2
+# Day 02 Corruption Checksum -- part 2
 
 import csv
 
@@ -30,4 +30,4 @@ with open('input.txt', 'r') as f:
                 else:
                     pass
 
-print('Checksum = {}'.format(checksum))
+print('Valid inputs = {}'.format(valid))

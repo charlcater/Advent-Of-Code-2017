@@ -1,5 +1,5 @@
 # Advent of Code 2017
-# Day 02 excercise 1
+# Day 02 Corruption Checksum -- part 1
 
 import csv
 

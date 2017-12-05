@@ -1,5 +1,5 @@
 # Advent of Code 2017
-# Day 01 excercise 2
+# Day 01 Inverse Captcha -- part 2
 
 f = open('input.txt', 'r')
 string = f.read()
