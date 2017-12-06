@@ -24,7 +24,7 @@
 # print('Valid passphrases = {}'.format(valid))
 
 
-#  count valid phrases, with csv
+# count valid phrases, with csv
 import csv
 valid = 0
 
@@ -41,3 +41,16 @@ with open('input.txt', 'r') as f:
             continue
         
 print('Valid passphrases = {}'.format(valid))
+
+## super nice short way:
+# with open('input.txt') as f:
+# 	a = f.readlines()
+
+# total = 0
+# for line in a:
+# 	b = line.split()
+# 	c = set(b)
+# 	if len(b) == len(c):
+# 		total += 1
+
+# print(total)
