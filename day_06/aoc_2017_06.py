@@ -1,5 +1,5 @@
 # Advent of Code 2017
-# Day 06: Memory Reallocation -- part 1
+# Day 06: Memory Reallocation -- part 1 & 2
 
 with open('input.txt', 'r') as f:
 
@@ -34,12 +34,16 @@ with open('input.txt', 'r') as f:
         if len(testset) < len(lstoflsts):
             print('Duplicate found in round {}'.format(rounds - 1))
 
-    # find the duplicate, get index and loop distance
+    # find the duplicate, get index and loop length
     j = 0
     k = 0
     for j in range(len(lstoflsts)):
         for k in range(len(lstoflsts)):
             if lstoflsts[j] == lstoflsts[k] and not j == k:
-                print('Distance = {}'.format(abs(j - k)))
-                print(j, k)
-                print(lstoflsts[j], lstoflsts[k])
+                # print(j, k)
+                # print(lstoflsts[j], lstoflsts[k])
+                print('Loop length = {} rounds'.format(abs(j - k)))
+                break
+        else:
+            continue
+        break
